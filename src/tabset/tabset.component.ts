@@ -1,7 +1,6 @@
 import { Component, Input, ContentChildren, QueryList, AfterContentInit, OnDestroy } from '@angular/core';
 import { WithSubStore, select, select$, dispatch } from '@angular-redux/store';
-import { Observable } from 'rxjs/Observable';
-import { Subscription } from 'rxjs/Subscription';
+import { Observable, Subscription } from 'rxjs';
 import { Action } from 'redux';
 import { ITabSetRecord } from './tabset.model';
 import { TabComponent } from '../tab/tab.component';

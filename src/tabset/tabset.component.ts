@@ -49,7 +49,7 @@ export class TabSetComponent implements AfterContentInit, OnDestroy {
     this.subscription.unsubscribe();
   }
 
-  private getBasePath() {
+  getBasePath() {
     return this.basePath;
   }
 
